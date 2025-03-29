@@ -2725,7 +2725,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableAudioVbrEncoding: Boolean? = true,
 	): Response<ByteArray> {
 		val pathParameters = buildMap<String, Any?>(1) {
@@ -2952,7 +2952,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableAudioVbrEncoding: Boolean? = true,
 	): String {
 		val pathParameters = buildMap<String, Any?>(1) {
@@ -3122,7 +3122,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableAudioVbrEncoding: Boolean? = true,
 	): Response<ByteArray> {
 		val pathParameters = buildMap<String, Any?>(1) {
@@ -3355,7 +3355,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableAudioVbrEncoding: Boolean? = true,
 	): String {
 		val pathParameters = buildMap<String, Any?>(1) {
@@ -3527,7 +3527,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableTrickplay: Boolean? = true,
 		enableAudioVbrEncoding: Boolean? = true,
 		alwaysBurnInSubtitleWhenTranscoding: Boolean? = false,
@@ -3766,7 +3766,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableTrickplay: Boolean? = true,
 		enableAudioVbrEncoding: Boolean? = true,
 		alwaysBurnInSubtitleWhenTranscoding: Boolean? = false,
@@ -3945,7 +3945,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableTrickplay: Boolean? = true,
 		enableAudioVbrEncoding: Boolean? = true,
 		alwaysBurnInSubtitleWhenTranscoding: Boolean? = false,
@@ -4190,7 +4190,7 @@ public class DynamicHlsApi(
 		videoStreamIndex: Int? = null,
 		context: EncodingContext? = null,
 		streamOptions: Map<String, String?>? = emptyMap(),
-		enableAdaptiveBitrateStreaming: Boolean? = true,
+		enableAdaptiveBitrateStreaming: Boolean? = false,
 		enableTrickplay: Boolean? = true,
 		enableAudioVbrEncoding: Boolean? = true,
 		alwaysBurnInSubtitleWhenTranscoding: Boolean? = false,
